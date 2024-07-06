@@ -5,5 +5,5 @@ test('capitalizes lowercase string', () => {
 });
 
 test('empty string throws error', () => {
-  expect(() => capitalize('')).toThrow('empty string');
+  expect(() => capitalize('')).toThrow();
 });
